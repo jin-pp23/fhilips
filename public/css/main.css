@@ -15,6 +15,7 @@ div, ul, li, ol, dl, dd, dt {margin: 0; padding: 0; box-sizing: border-box; list
 .cl:after {clear: both; content:""; display:block;}
 .rel{position: relative;}
 .abs{position: absolute;}
+.img {width:100%;}
 
 header{width: 100%;}
 header .w{}
@@ -38,18 +39,9 @@ section{width: 100%;}
 .nav ul li:hover{color: #0079c1;}
 .nav ul li a{}
 
-.banner{}
-.banner{width: 100%; height: 100%;position: relative;}
-.slide li{}
-.main ul{height: 64vh;}
-.main ul li{width: 100%;margin: 0;padding: 0;}
-.main_1{left: 0;}
-.main_1 img{}
-
-.main_2{left: 100%;}
-
-
-.main_3{left: 200%;}
+.main {width:100%;  max-width:1600px; margin:5% auto; overflow:scroll;}
+.slides {height: 64vh; border:1px solid #f00; width:100%;}
+.slide {width: 100%; height:100%; margin: 0; padding: 0; border:1px solid #0f0; top:0; left:0;}
 
 .bol{font-weight: bold;}
 .main_txt{top: 50%;transform: translateY(-50%);left: 10%;}
@@ -67,7 +59,6 @@ section{width: 100%;}
 .main_txt2 button{width: 6vw;height: 5vh;background-color: #deebfd; color: #0e0e11; border: 0;font-size: 2vh;margin: 3vh 0 0 1vh;cursor: pointer;}
 
 
-.main{margin: 5% 0;width: 100%;}
 .main img{cursor: pointer;}
 .main1 h4{font-size: 0.8rem;text-align: center;margin: 1% 0;color: #383085;}
 .main1 p{font-size: 1.5vh;text-align: center;margin-bottom:1.5%;margin-top: 0;}
