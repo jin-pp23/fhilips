@@ -1,0 +1,24 @@
+[debug] [2018-12-18T01:44:41.189Z] ----------------------------------------------------------------------
+[debug] [2018-12-18T01:44:41.189Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Administrator\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase serve
+[debug] [2018-12-18T01:44:41.189Z] CLI Version:   4.2.1
+[debug] [2018-12-18T01:44:41.189Z] Platform:      win32
+[debug] [2018-12-18T01:44:41.189Z] Node Version:  v8.12.0
+[debug] [2018-12-18T01:44:41.189Z] Time:          Tue Dec 18 2018 10:44:41 GMT+0900 (대한민국 표준시)
+[debug] [2018-12-18T01:44:41.189Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-12-18T01:44:41.235Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-12-18T01:44:41.235Z] > authorizing via signed-in user
+[debug] [2018-12-18T01:44:41.251Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/fhilips-pp23  
+ 
+[debug] [2018-12-18T01:44:42.368Z] <<< HTTP RESPONSE 200
+[debug] [2018-12-18T01:44:42.373Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/fhilips-pp23  
+ 
+[debug] [2018-12-18T01:44:43.656Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from 'D:\fbroot\포폴_js\ex03 조명'...
+[info] 
+[debug] [2018-12-18T01:44:43.734Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/360498967139/clients/_:getWebAppConfig  
+ 
+[debug] [2018-12-18T01:44:44.360Z] <<< HTTP RESPONSE 200
+[info] i  hosting[fhilips-pp23]: Serving hosting files from: public
+[info] +  hosting[fhilips-pp23]: Local server: http://localhost:5000
