@@ -22,3 +22,31 @@
 [debug] [2018-12-18T01:44:44.360Z] <<< HTTP RESPONSE 200
 [info] i  hosting[fhilips-pp23]: Serving hosting files from: public
 [info] +  hosting[fhilips-pp23]: Local server: http://localhost:5000
+[debug] [2018-12-18T06:37:11.690Z] ----------------------------------------------------------------------
+[debug] [2018-12-18T06:37:11.706Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Administrator\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase serve
+[debug] [2018-12-18T06:37:11.706Z] CLI Version:   4.2.1
+[debug] [2018-12-18T06:37:11.706Z] Platform:      win32
+[debug] [2018-12-18T06:37:11.706Z] Node Version:  v8.12.0
+[debug] [2018-12-18T06:37:11.706Z] Time:          Tue Dec 18 2018 15:37:11 GMT+0900 (대한민국 표준시)
+[debug] [2018-12-18T06:37:11.706Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-12-18T06:37:11.752Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-12-18T06:37:11.752Z] > authorizing via signed-in user
+[debug] [2018-12-18T06:37:11.768Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2018-12-18T06:37:11.768Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+
+[debug] [2018-12-18T06:37:12.191Z] <<< HTTP RESPONSE 200
+[debug] [2018-12-18T06:37:12.207Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/fhilips-pp23  
+ 
+[debug] [2018-12-18T06:37:13.290Z] <<< HTTP RESPONSE 200
+[debug] [2018-12-18T06:37:13.290Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/fhilips-pp23  
+ 
+[debug] [2018-12-18T06:37:14.566Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from 'D:\fbroot\포폴_js\ex03 조명'...
+[info] 
+[debug] [2018-12-18T06:37:14.660Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/360498967139/clients/_:getWebAppConfig  
+ 
+[debug] [2018-12-18T06:37:15.487Z] <<< HTTP RESPONSE 200
+[info] i  hosting[fhilips-pp23]: Serving hosting files from: public
+[info] +  hosting[fhilips-pp23]: Local server: http://localhost:5000
