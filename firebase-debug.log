@@ -108,3 +108,28 @@
 [debug] [2019-01-08T11:29:56.599Z] <<< HTTP RESPONSE 200
 [info] i  hosting: Serving hosting files from: public
 [info] +  hosting: Local server: http://localhost:5000
+[debug] [2019-01-17T09:23:59.634Z] ----------------------------------------------------------------------
+[debug] [2019-01-17T09:23:59.640Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\user\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js serve
+[debug] [2019-01-17T09:23:59.641Z] CLI Version:   6.2.2
+[debug] [2019-01-17T09:23:59.641Z] Platform:      win32
+[debug] [2019-01-17T09:23:59.641Z] Node Version:  v10.13.0
+[debug] [2019-01-17T09:23:59.648Z] Time:          Thu Jan 17 2019 18:23:59 GMT+0900 (GMT+09:00)
+[debug] [2019-01-17T09:23:59.648Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2019-01-17T09:23:59.674Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2019-01-17T09:23:59.675Z] > authorizing via signed-in user
+[debug] [2019-01-17T09:23:59.675Z] [iam] checking project fhilips-pp23 for permissions ["firebase.projects.get"]
+[debug] [2019-01-17T09:23:59.678Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/fhilips-pp23:testIamPermissions  
+
+[debug] [2019-01-17T09:24:01.285Z] <<< HTTP RESPONSE 200
+[debug] [2019-01-17T09:24:01.287Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/fhilips-pp23  
+ 
+[debug] [2019-01-17T09:24:02.098Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from 'D:\fhilips'...
+[info] 
+[debug] [2019-01-17T09:24:02.102Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/360498967139/clients/_:getWebAppConfig  
+ 
+[debug] [2019-01-17T09:24:03.134Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: public
+[info] +  hosting: Local server: http://localhost:5000
