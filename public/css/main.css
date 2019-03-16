@@ -39,21 +39,21 @@ section{width: 100%;}
 .nav .navi li{padding:0 1%;float: left;font-size: 1vw;font-weight: 400;}
 .nav .navi li:hover{color: #0079c1;}
 
-.main {width:auto;  max-width:1280px; margin:2% auto 2% auto; overflow:hidden;}
+.main {width:1920px;  max-width:1280px; margin:2% auto 2% auto; overflow:hidden;}
 .slides {height: 45vh;width:100%;}
 .slide {width: 100%; height:100%; margin: 0; padding: 0; top:0; left:0;}
 
 .bol{font-weight: bold;}
 .main_txt{top: 50%;transform: translateY(-50%);left: 10%;}
 .main_txt h2,.main_txt h4,.main_txt span{color: #fff;}
-.main_txt h2{font-size: 6vh;margin: -4% 0;font-weight:50; }
+.main_txt h2{font-size: 5vh;margin: -4% 0;font-weight:50; }
 .num{font-size: 5vh; }
 .main_txt h4{font-size: 2.5vh;font-weight:500 ;margin-bottom: 0;color: #ffcccc;}
 .main_txt button{width: 5vw;height: 5vh;background-color: #ffe6e6; color: #8b244d; border: 0;font-size: 2vh;margin: 3vh 0 0 1vh;cursor: pointer;}
 
 .main_txt2{top: 50%;transform: translateY(-50%);left: 10%;}
 .main_txt h2,.main_txt h4,.main_txt span,.main_txt2 h2,.main_txt2 h4,.main_txt2 span{color: #fff;}
-.main_txt2 h2{font-size: 6vh;margin: -4% 0;font-weight:50; }
+.main_txt2 h2{font-size: 4.5vh;margin: -4% 0;font-weight:50; }
 
 .main_txt2 h4{font-size: 2.5vh;font-weight:500 ;margin-bottom: 0;color: #fdfbde;}
 .main_txt2 button{width: 5vw;height: 5vh;background-color: #deebfd; color: #0e0e11; border: 0;font-size: 2vh;margin: 3vh 0 0 1vh;cursor: pointer;}
@@ -76,8 +76,8 @@ section{width: 100%;}
 .main1{width: 64%;}
 .main2{width: 35%;}
 
-.pic_3{max-width: 1280px; width: 80%;margin: auto;}
-
+/* .pic_3{max-width: 1280px; width: 80%;margin: auto;} */
+.pic_3{width: 1920px; padding:0 15%;}
 
 .pro{height: 35vh;}
 .pro .pro_n{margin-top: 2vh;}
@@ -85,7 +85,7 @@ section{width: 100%;}
 .pro .pro_n h4:hover{border-top:2px solid #333; }
 .pro_n_line{text-align: center;margin-top: 4vh;}
 .pro_n_line div{display: inline-block;}
-.pro_n1{width: 33%;}
+.pro_n1{width: 32%;}
 .pro_n2{width: 33%;}
 .pro_n3{width: 33%;}
 .pro_b{margin-top: 2vh;}
