@@ -17,15 +17,15 @@ div, ul, li, ol, dl, dd, dt {margin: 0; padding: 0; box-sizing: border-box; list
 .cl:after {clear: both; content:""; display:block;}
 .rel{position: relative;}
 .abs{position: absolute;}
-.img {width:100%;}
+.img {width:auto;}
 
-header{width: 100%;}
+header{width: 1920px;max-width: 1280px;margin: auto;}
 header .w .pa{padding: 6% 0;}
 
 .header1 {width: 30%;}
-.header2 {width: 40%;text-align: center;}
-.find{width: 90%;height:2.8vh; border: 1px solid #4d4d4f;}
-.find button{width: 4.5vw; float: right;background: #fff;color: #4d4d4f; border: none;padding: 0.3vw;}
+.header2 {width: 40%;text-align: center; margin-top: 1%;}
+.find{width: 90%;height:32px; border: 1px solid #4d4d4f;}
+.find button{width: 4.5vw;height: 30px; float: right;background: #fff;color: #4d4d4f; border: none;padding: 0.3vw;}
 .find .fa{margin-left: 10%;}
 .find button:hover{background:#0079c1;color: #fff;}
 .header3 {width: 30%;}
@@ -34,12 +34,12 @@ header .w .pa{padding: 6% 0;}
 .header3 ul li a:hover{color: #0079c1;}
 
 section{width: 100%;}
-.nav{width: 100%;height:3vh; border-top:1px solid #4d4d4f;border-bottom: 1px solid #4d4d4f; }
-.nav .navi{margin-top: 0.3vw;height: 3vh; }
-.nav .navi li{padding:0 1%;float: left;font-size: 1vw;font-weight: 400;}
+.nav{width: 100%;height:30px; border-top:1px solid #4d4d4f;border-bottom: 1px solid #4d4d4f; }
+.nav .navi{height: 30px; width: 1920px;max-width: 1280px;margin: 0 auto;}
+.nav .navi li{padding:0 1%;float: left;font-size: 16px;font-weight: 400;}
 .nav .navi li:hover{color: #0079c1;}
 
-.main {width:1920px;  max-width:1280px; margin:2% auto 2% auto; overflow:hidden;}
+.main {width:1920px; max-width:1280px; margin:2% auto 2% auto; overflow:hidden;}
 .slides {height: 45vh;width:100%;}
 .slide {width: 100%; height:100%; margin: 0; padding: 0; top:0; left:0;}
 
